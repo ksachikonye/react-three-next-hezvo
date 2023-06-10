@@ -5,7 +5,6 @@ import { useSpring } from '@react-spring/core'
 import { a } from '@react-spring/web'
 import Overlay from './Overlay'
 import Scene from './Scene'
-import './styles.css'
 
 export default function Home() {
   // This spring controls the background and the svg fill (text color)

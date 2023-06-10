@@ -3,13 +3,14 @@ import React, { Suspense, useEffect, useRef, useState, useMemo } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { useGLTF, useAnimations, Reflector, MeshReflectorMaterial, useTexture } from '@react-three/drei'
 import useStore from './store'
+import './styles.css'
 
 const HPI = Math.PI / 2
 const vec = new THREE.Vector3()
 const obj = new THREE.Object3D()
 const red = new THREE.Color('#900909')
 
-export default function App(props) {
+export default function Cohesion(props) {
   return (
     <Canvas dpr={[1, 2]} camera={{ position: [-20, 20, 20], fov: 25 }}>
       <color attach="background" args={['#d0d0d0']} />

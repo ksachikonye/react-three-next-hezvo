@@ -1,6 +1,5 @@
 import React from 'react'
 import { a } from '@react-spring/web'
-import './styles.css'
 
 export default function Overlay({ fill }) {
   // Just a Figma export, the fill is animated
@@ -32,7 +31,6 @@ export default function Overlay({ fill }) {
           <tspan x={40} y={372.909} children="Speculum de latibulis" />
           <tspan x={40} y={423.909} children="surrexissent Opus" />
           <tspan x={40} y={474.909} children="Magnificentiae" />
-
         </text>
         <text style={{ whiteSpace: 'pre' }} fontFamily="Inter" fontSize={10.5} fontWeight={500} letterSpacing="0em">
           <tspan x={326} y={640.318} children="The Complete Book of Magic Science" />
